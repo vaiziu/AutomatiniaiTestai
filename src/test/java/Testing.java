@@ -158,18 +158,18 @@ public class Testing {
         _globalDriver.findElement(By.xpath("/html/body/div[1]/div[2]/form/div[5]/input")).sendKeys("+37067123456");
         _globalDriver.findElement(By.xpath("/html/body/div[1]/div[2]/form/div[6]/input")).sendKeys("nonameno@gmail.com");
         _globalDriver.findElement(By.xpath("/html/body/div[1]/div[2]/form/div[7]/input[2]")).click();
-        _globalDriver.findElement(By.xpath("/html/body/div[1]/form[1]/div[1]/label/input[1]")).click();
+//        _globalDriver.findElement(By.xpath("/html/body/div[1]/form[1]/div[1]/label/input[1]")).click();
         try {
             TimeUnit.SECONDS.sleep(5);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
-        _globalDriver.findElement(By.id("inputfile")).sendKeys("C:\\Users\\Kaspis\\Downloads\\download (1).png");
+        _globalDriver.findElement(By.id("inputfile")).sendKeys("C:\\Users\\Kaspis\\Downloads\\picture.png");
 
 
     }
 
-    
+
 }
 
 
